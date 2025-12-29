@@ -1,4 +1,93 @@
-<!<!DOCTYPE html>
+<!<!* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+}
+
+header h1 {
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.hero p {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #cfa44a;
+}
+
+.hero button {
+    padding: 15px 40px;
+    background: #cfa44a;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.collection {
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.product {
+    border: 1px solid #cfa44a;
+    padding: 40px;
+    width: 200px;
+}
+
+.about, .contact {
+    padding: 100px 40px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #333;
+}DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
