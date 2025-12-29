@@ -1,4 +1,58 @@
-<!DOCTYPE html>
+<!<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoungStylez</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>YOUNGSTYLEZ</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Luxury Streetwear</h2>
+    <p>For the Next Generation</p>
+    <button>Shop Now</button>
+</section>
+
+<section id="collection" class="collection">
+    <h2>New Collection</h2>
+    <div class="products">
+        <div class="product">HOODIE</div>
+        <div class="product">TSHIRT</div>
+        <div class="product">CAP</div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About YoungStylez</h2>
+    <p>
+        YoungStylez steht für modernen Luxus-Streetstyle.
+        Inspiriert von TikTok Trends & Urban Fashion.
+    </p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Instagram / TikTok: @youngstylez</p>
+</section>
+
+<footer>
+    <p>© 2025 YoungStylez</p>
+</footer>
+
+</body>
+</html>DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
